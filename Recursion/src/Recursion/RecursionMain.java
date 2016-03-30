@@ -22,7 +22,7 @@ public class RecursionMain {
 		// create a sum of all the integers' 2nd power
 	for (int counter = 0; counter <= numselect; counter++)
 		System.out.printf("%d = %d%n", counter, Recursion.SumSquares(counter));
-					
+			
 						myscan.close();	
 		}
 			catch(InputMismatchException exception)
