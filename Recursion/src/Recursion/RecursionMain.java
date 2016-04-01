@@ -36,12 +36,16 @@ public class RecursionMain {
 				// for backwardArray
 			int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; 
 				String results = Recursion.backwardArray(array, 0);
-					System.out.println("Array backward is : " + results);
+					System.out.println("ArrayX backward is : " + results);
 	
 					
 				// for addingMethod
 			int result = Recursion.addingMethod(array, array.length);
 				System.out.printf("The sum of this array is: %d%n", result);
 
+				
+			RecursionString.getChar();
+				
 	}	
+	
 }

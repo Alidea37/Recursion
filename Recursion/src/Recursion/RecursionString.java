@@ -6,31 +6,21 @@ public class RecursionString {
 
 	static Scanner myscan = new Scanner(System.in);
 	
-	private static String words = myscan.next();
-	private static int intword = words.length();
 	
-	
-	
-	public static int[] getChar(){
+	public static char[] getChar(){
 		
-		System.out.println("Enter a sentance: ");
-		String words = myscan.next();
+		String word = "deliver , knits , star -";
+		char [] letterArray = word.toCharArray();
+		System.out.print(letterArray);
 		
-		while( myscan.hasNext()) {
-			for (int k = words.length(); k <= 0; k++);
-			
-			System.out.print([intword]);
-			
-			
+		for (int k = word.length()-1; k>=0; k--){
+			System.out.print(letterArray[k]);
 		
+			
+		}
+		return letterArray;
 	}
-		return null;
 		
-	
-	
-	
-	
+			
 	}
-	
-	
-}
+
